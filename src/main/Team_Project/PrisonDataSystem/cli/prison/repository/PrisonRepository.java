@@ -8,7 +8,7 @@ import java.util.List;
 public interface PrisonRepository {
 
     //죄수 정보 추가
-    void addprisoner(Prison prison);
+    void addPrisoner(Prison prison);
 
     //조건별 죄수 검색
     /**

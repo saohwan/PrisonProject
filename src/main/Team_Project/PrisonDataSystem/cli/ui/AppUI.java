@@ -41,7 +41,7 @@ public class AppUI {
     }
 
     //죄수 관리 시스템 화면 출력
-    public static void userManagementScreen() {
+    public static void prisonerManagementScreen() {
         System.out.println("\n========= 죄수 관리 시스템 =========");
         System.out.println("### 1. 신규 죄수 추가");
         System.out.println("### 2. 죄수 검색");
@@ -52,7 +52,7 @@ public class AppUI {
     }
 
     //형량 관리 시스템 화면 출력
-    public static void orderManagementScreen() {
+    public static void pleaManagementScreen() {
         System.out.println("\n========= 형량 관리 시스템 =========");
         System.out.println("### 1. 형량 추가하기");
         System.out.println("### 2. 형량 감형하기");
@@ -61,7 +61,7 @@ public class AppUI {
     }
 
     //보석 관리 시스템 화면 출력
-    public static void movieManagementScreen() {
+    public static void bailManagementScreen() {
         System.out.println("\n========= 보석 관리 시스템 =========");
         System.out.println("### 1. 보석금 추가");
         System.out.println("### 2. 보석금 정보 검색");

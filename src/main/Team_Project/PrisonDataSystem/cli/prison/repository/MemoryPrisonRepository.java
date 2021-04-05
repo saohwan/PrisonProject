@@ -1,11 +1,36 @@
 package PrisonDataSystem.cli.prison.repository;
 
+
+import PrisonDataSystem.cli.prison.domain.Prison;
+
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-public class MemoryPrisonRepository {
 
-    private final static Map<Integer, Movie> movieMemoryDB = new HashMap<>();
+public class MemoryPrisonRepository implements PrisonRepository {
+    @Override
+    public void addPrisoner(Prison prison) {
+
+    }
+
+    @Override
+    public List<Prison> searchMovieList(String keyword, SearchCondition condition) {
+        return null;
+    }
+
+    @Override
+    public Prison searchPrisonOne(int prisonNumber) {
+        return null;
+    }
+
+    @Override
+    public void removePrison(int serialNumber) {
+
+    }
+
+  /*  private final static Map<Integer, Movie> movieMemoryDB = new HashMap<>();
 
     static {
         insertTestData();
@@ -34,5 +59,5 @@ public class MemoryPrisonRepository {
         movieMemoryDB.put(movie8.getSerialNumber(), movie8);
         movieMemoryDB.put(movie9.getSerialNumber(), movie9);
         movieMemoryDB.put(movie10.getSerialNumber(), movie10);
-    }
+    }*/
 }
